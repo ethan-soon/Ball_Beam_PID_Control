@@ -2,7 +2,7 @@
 
 ## Description:
 
-#### The Ball and Beam project is a simple way to learning basic PID control. In the system, the inputs are from the VL53L1X time of flight sensor that gives the distance of the ball relative to the sensor. This is put through a PID control function that will take the input as well as previous inputs to 
+#### The Ball and Beam project is a simple way to learning basic PID control. In the system, the inputs are from the VL53L1X time of flight sensor that gives the distance of the ball relative to the sensor. This is put through a PID control function that will account for the proportional change, the velocity of the ball, and the past inputs to create an output. This output (a number) is then used to control the actuator (the servo motor) to tilt the beam accordingly in order to keep the ball in the middle.
 
 ## Hardware:
 
